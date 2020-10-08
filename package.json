@@ -5,7 +5,8 @@
   "main": "server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch server/server.js"
+    "start": "nodemon --watch server/server.js",
+    "start-services": "nodemon Services/Add-To-Cart/Server/index.js & nodemon Services/ImageCarousel/server/index.js & nodemon Services/Reviews/server/index.js & nodemon Services/Seller/server/index.js"
   },
   "repository": {
     "type": "git",
