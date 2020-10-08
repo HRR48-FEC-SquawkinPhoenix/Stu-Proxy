@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+}
+
+.car-cart {
+  display: flex;
+  /* width: 100%; */
+  margin: 0 10%;
+}
+
+#carousel {
+  flex: 0 0 65%;
+}
+
+.spacer {
+  /* border: 1px solid black; */
+
+}
+
+#addToCart {
+flex: 0 0 30%;
+}
+
+.sell-rev {
+  display: flex;
+  /* width: 100%; */
+  margin: 0 10%;
+}
+
+#seller {
+  flex: 0 0 30%;
+}
+
+#reviews {
+flex: 0 0 65%;
+}
