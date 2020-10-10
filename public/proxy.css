@@ -1,37 +1,65 @@
-.header {
-  width: 100%;
+body {
+  margin: 0px;
+}
+
+.headContainer {
+  display:flex;
+  justify-content: center;
   border-bottom: 2px solid lightgray;
 }
 
-.car-cart {
+.header {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.services {
   display: flex;
-  /* width: 100%; */
-  margin: 0 10%;
+  width: 100%;
+  margin: 2% 10%;
+  max-width: 1400px;
+}
+
+.leftCol {
+  margin-top: 2%;
 }
 
 #carousel {
-  flex: 0 0 65%;
-}
-
-.spacer {
-  /* border: 1px solid black; */
-
-}
-
-#addToCart {
-flex: 0 0 30%;
-}
-
-.sell-rev {
-  display: flex;
-  /* width: 100%; */
-  margin: 0 10%;
-}
-
-#seller {
-  flex: 0 0 30%;
+  margin-bottom:10px;
 }
 
 #reviews {
 flex: 0 0 65%;
+}
+
+
+.rightCol {
+}
+
+#addToCart {
+}
+
+#seller {
+}
+
+.footContainer {
+  display:flex;
+  justify-content: center;
+  align-items: center;;
+  flex-direction: column;
+}
+
+.store {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.similar {
+  width: 100%;
+  max-width: 1600px;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1600px;
 }

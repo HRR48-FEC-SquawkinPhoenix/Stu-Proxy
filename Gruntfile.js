@@ -19,21 +19,21 @@ module.exports = function (grunt) {
     //     }
     //   }
     // },
-    // cssmin: {
-    //   options: {
-    //     mergeIntoShorthands: false,
-    //     roundingPrecision: -1
-    //   },
-    //   target: {
-    //     files: {
-    //       'bundles/compiled.css': ['public/proxy.css', 'Services/ImageCarousel/public/style.css', 'Services/Reviews/public/style.css', 'Services/Seller/client/dist/style.css']
-    //     }
-    //   }
-    // }
+    cssmin: {
+      options: {
+        mergeIntoShorthands: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          'bundles/compiled.css': ['Services/Seller/client/dist/style.css']
+        }
+      }
+    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   // grunt.loadNpmTasks('grunt-contrib-uglify');
-  // grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.registerTask('default', ['concat']);
 }
